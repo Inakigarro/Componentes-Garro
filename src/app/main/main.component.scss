@@ -2,10 +2,14 @@ $h2-height: 50px;
 
 .main {
   height: calc(100vh - (var(--header-height)));
-  background-color: rgb(0, 255, 179);
+  background-color: #303030;
   h2 {
     text-align: center;
     height: $h2-height;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+    width: fit-content;
   }
   .redes {
     display: flex;
@@ -15,7 +19,7 @@ $h2-height: 50px;
     height: calc(100% - $h2-height);
     &__card {
       padding: 5px;
-      background-color: rgba(71, 191, 247, 0.425);
+      background-color: #fafafa;
       margin: 10px;
       &__title {
         justify-content: center;
